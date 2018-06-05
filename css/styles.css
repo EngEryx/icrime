@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lato|Lora');
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size:18px;
+}
+
+#mapid {
+    height: 700px;
+}
+.sticky-wrapper .navbar-default {
+    top: 0;
+    width: 100%;
+    /*background: #1f1e1e !important;*/
+    background: #1f1e1e00 !important;
+    z-index: 9999 !important;
+}
+.navbar-default {
+    font-size: 17px;
+    border:none;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.navbar-nav li a {
+    color: #b9b7b7 !important;
+    font-weight: bold;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+    font-weight: bold;
+}
+.sticky-wrapper {
+    height: 0 !important;
+}
+.is-sticky .navbar-default {
+    background: #ffffff !important;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    -ms-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    transition: all .5s ease-in;
+}
+.is-sticky .navbar-nav li a {
+    color: #0b0b0b;
+}
+.is-sticky  .navbar-nav li a:hover {
+    color: #1f1e1e !important;
+    font-weight: bold;
+}
+.is-sticky .navbar-default .navbar-brand {
+    color: #0b0b0b;
+}
+.home-area {
+    padding-top: 90px;
+    top: 0;
+    background: #1f1e1e;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-area video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.home-area h1 {
+    color: #F6F6F6;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.home-area p {
+    color: #FFF;
+}
+.home-area .intro {
+    padding: 90px;
+    background: rgba(29, 28, 28, 0.57);
+}
+.btn-intro {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    /*box-shadow: 0 4px 10px 0 #b3b3b3;*/
+}
+.btn-intro span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn-intro span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn-intro:hover span {
+    padding-right: 25px;
+}
+.btn-intro:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.intro-btns {
+    padding-top: 30px;
+}
+.btn-ml {
+    margin-left: 20px;
+}
+.nav-tabs li a {
+    margin-right: 2px;
+    line-height: 1.6;
+    border: 2px solid;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+.nav-tabs {
+    text-align:center;
+}
+.download-link {
+    padding-top: 30px;
+}
+.app-features{
+    margin-top: 30px;
+    list-style: none;
+    padding: 4px;
+    font-size: 17px;
+}
+.promo-vid {
+    padding: 20px;
+}
+.header-intro {
+    padding: 15px;
+}
+.body-intro {
+    margin-top: 20px;
+}
+.img-app-intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+.intro-img {
+    padding-top: 20px;
+}
+.scroll-down {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    color: #F6F6F6;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(168, 168, 168, 0.49);
+    border-radius: 25px;
+}
+#scroll-down {
+    -webkit-animation-duration: .3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: .2s;
+    -webkit-animation-iteration-count: infinite;
+}
+/*
+  Footer
+ */
+.footer .social-links a,.footer .quick-links a {
+    color: #FFF;
+}
+.footer .quick-links a:before {
+    padding: 0.5rem;
+    content: '';
+    color: #FFF;
+}
+.footer {
+    position: absolute;
+    background: #1d1d1c;
+    width: 100%;
+    margin: 0;
+    right: 0;
+    padding-left: 15px;
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+.footer .copyright {
+    padding-left: 15px;
+    border-top: solid grey 1px;
+}
+.footer h4 {
+    padding: 5px;
+    border-bottom: solid #eee 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.footer .col {
+    padding-left: 0 !important;
+    margin-right: 15px;
+}
+.card {
+    transition: all 0.3s ease 0s;
+}
+.footer ul, .contact-us ul {
+    list-style: none;
+}
+.footer ul li, .contact-us ul li {
+    padding: 0.25rem;
+}
+.footer ul li i, .contact-us ul li i {
+    margin-right: 0.5rem;
+}
+.footer p {
+    padding: 1rem;
+    margin: 0;
+}
+@media screen and (max-width:792px) {
+    .expertise-item h4:after {
+        display: none;
+    }
+}
